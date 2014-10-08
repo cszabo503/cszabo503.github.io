@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+body {
+	background: red;
+}
 
 
 // Our variables
@@ -24,6 +27,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+
+body {
+	background: red;
+}
 
 
 // Using media queries with like this:
