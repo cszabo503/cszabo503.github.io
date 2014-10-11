@@ -3,11 +3,6 @@
 ---
 @charset "utf-8";
 
-body {
-	background: red;
-}
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -27,12 +22,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-body {
-	background: red;
-}
-
-
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -46,11 +35,68 @@ body {
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+/* ======= Links ======= */
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a {
+	color: #8b4176
+}
+
+a:hover {
+	color: #4a2449;
+}
+
+a:visited{
+	color: #443d4f;
+}
+
+
+/* ======= Header/Nav =======*/
+
+.site-header {
+	// position: fixed;
+	// z-index: 2;
+	width: 100%;
+}
+
+
+.site-nav {
+	// position: fixed;
+	float: right;
+	// z-index: 1;
+}
+
+h2 {
+	font-family: Georgia;
+	font-style: italic;
+	color: #443d4f;
+	margin: 0;
+}
+
+/* ======== Post Date ======== */
+
+.post-meta{
+	font-size: 12px;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
