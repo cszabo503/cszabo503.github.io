@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Oct 2014 21:07:50 -0500</pubDate>
-    <lastBuildDate>Fri, 10 Oct 2014 21:07:50 -0500</lastBuildDate>
+    <pubDate>Fri, 10 Oct 2014 22:31:55 -0500</pubDate>
+    <lastBuildDate>Fri, 10 Oct 2014 22:31:55 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -70,7 +70,9 @@
     
       <item>
         <title>First Real Post</title>
-        <description>&lt;p&gt;This is my first post about Jekyll. &lt;/p&gt;
+        <description>&lt;div&gt;&lt;img src=&quot;/assets/test-img3.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;This is my first post about Jekyll. &lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -88,7 +90,6 @@
   &lt;li&gt;Item three&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div&gt;&lt;img src=&quot;&quot; /&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 14 Jul 2010 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/2010/07/14/first-real-post.html</link>

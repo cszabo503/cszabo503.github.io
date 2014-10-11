@@ -477,6 +477,12 @@ h2 {
 .post-meta {
   font-size: 12px; }
 
+/* ======== Images ========= */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 10px auto; }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
