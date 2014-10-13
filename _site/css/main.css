@@ -508,3 +508,11 @@ img {
 .wrapper {
   max-width: 70%;
   margin: 0 auto; }
+
+/* ======= Footer ======= */
+footer.site-footer {
+  width: 100%;
+  background-color: #443d4f; }
+
+.footer-heading {
+  color: #828282; }
