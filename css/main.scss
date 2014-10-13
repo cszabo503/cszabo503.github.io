@@ -49,7 +49,7 @@ a:-webkit-any-link {
 }
 
 a {
-	color: #8b4176
+	color: #8b4176;
 }
 
 a:hover {
@@ -67,13 +67,30 @@ a:visited{
 	// position: fixed;
 	// z-index: 2;
 	width: 100%;
+	background-color: #443d4f;
 }
 
+.site-title {
+	color: white;
+}
+
+a.site-title{
+	color: white;
+}
+
+.site-title:visited {
+	color: white;
+}
 
 .site-nav {
 	// position: fixed;
 	float: right;
+	color: white;
 	// z-index: 1;
+}
+
+.site-nav .page-link {
+	color: white;
 }
 
 h2 {
@@ -109,3 +126,8 @@ img {
     height: 0;
 }
 
+
+.wrapper{
+	max-width: 70%;
+	margin: 0 auto;
+}
